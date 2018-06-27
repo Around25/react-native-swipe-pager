@@ -1,0 +1,32 @@
+{
+  "name": "@around25/react-native-swipe-pager",
+  "version": "0.0.1",
+  "description": "This component allow to swipe pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Around25/react-native-swipe-pager.git"
+  },
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-native": "0.55.4"
+  },
+  "dependencies": {
+    "warning": "^2.1.0"
+  },
+  "keywords": [
+    "react-native",
+    "pager",
+    "swipe",
+    "swipper"
+  ],
+  "author": "Andrei Rat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Around25/react-native-swipe-pager/issues"
+  },
+  "homepage": "https://github.com/Around25/react-native-swipe-pager#readme"
+}
