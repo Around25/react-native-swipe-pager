@@ -25,7 +25,7 @@ $ npm i @around25/react-native-swipe-pager --save
 | Option | iOS    | Android | Description | Default | Options | Type
 |:------:|:------:|:-------:|:----:|:-------------:|:--------:|:----:|
 | `dataSource` | YES | YES | ***Required*** - Provide pages data | - | - | -
-| `renderPage` | YES | YES | Render page view  | - | - | **{component}**
+| `renderSwipePage` | YES | YES | Render page view  | - | - | **{component}**
 | `autoPlay` | YES | YES | If is set to `true`, pages will change automatically | ***false*** | *true*, *false* | **{boolean}**
 | `initialPage` | YES | YES | The initial page to display. It requires the index of the page. | ***0*** | - | **{number}**
 | `isLoop` | YES | YES | If is set to `true`, infinite swipe is enabled | ***false*** | *true*, *false* | **{boolean}**
@@ -37,7 +37,7 @@ $ npm i @around25/react-native-swipe-pager --save
 ### Methods
 | Method | Description | Type
 |:------:|:-----------:|:----:|
-| `onChangePage` | Callback when the page is changed | ***{function}***
+| `onSwipe` | Callback when the page is changed | ***{function}***
 
 ### Example 
 
