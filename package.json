@@ -1,6 +1,6 @@
 {
   "name": "@around25/react-native-swipe-pager",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This component allow to swipe pages.",
   "main": "index.js",
   "scripts": {
